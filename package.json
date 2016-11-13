@@ -1,0 +1,16 @@
+{
+  "name": "gh-pages-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/ && cp -r src/. dist/",
+    "deploy": "gh-pages -d dist/"
+  },
+  "keywords": [],
+  "author": "Yuhei Yasuda <yuhei.yasuda1003@gmail.com> (https://yuheiy.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^0.11.0"
+  }
+}
